@@ -30,7 +30,7 @@ elif (prioridade == "MEMORIA" or margem_RAM > 16):
     
 else:
     familia_ec2 = ("Família t3/m6i (General Purpose)")
-    
+
 
 # ETAPA 04: ESTIMATIVA FINANCEIRA DE NUVEM (FinOps)
 custo_hora = (process_cpu * 0.04) + margem_RAM * 0.005
